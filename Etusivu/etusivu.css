@@ -58,7 +58,7 @@ nav {
 
 header {
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./kuvat/leirinta.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(leirinta.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,10 +126,6 @@ footer {
 }
 
 @media screen and (max-width: 600px){
-    body {
-        background-color: white;
-    }
-
     .nav_menu {
         display: block;
         margin-right: 15px;
